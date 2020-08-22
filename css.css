@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(46, 124, 175), rgb(161, 207, 238));
+}
+
+.titlecontainer h1 {
+    font-size: 60px;
+    padding: 1rem;
+    margin: 30px;
+    color: cornsilk;
+    font-family: 'Indie Flower', cursive;
+    transition: .5s ease-in;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 70vh;
+    background-color: rgba(247, 247, 247, 0.966);
+    min-width: 50vh;
+    transition: .5s ease-in;
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 60px rgba(0, 0, 255, 0.651);
+    width: 50vh;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.find2 input {
+    min-width: 30vh;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.408);
+    border-radius: 10px 0px 10px 0px;
+    outline: none;
+    border: none;
+    margin: 20px;
+    transition: .3s ease-in;
+}
+
+.find2 input:hover {
+    border-radius: 0px 10px 0px 10px;
+    background-color: rgba(255, 255, 255, 0.908);
+}
+
+.appbar {
+    margin: 20px;
+}
+
+.appbar p {
+    font-size: 30px;
+    font-family: monospace;
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+}
+
+.weathercard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(30, 140, 230, 0.405);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    min-height: 73%;
+}
+
+img {
+    max-width: 10vh;
+}
+
+.date {
+    margin: 10px;
+    font-family: monospace;
+    font-size: 19px;
+}
+
+.icon {
+    margin: 10px;
+}
+
+.temperature {
+    margin: 0px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    bottom: 20px;
+    font-weight: 700;
+}
+
+.place {
+    margin: 10px;
+    font-size: 19px;
+    font-family: monospace;
+}
+
+.discription {
+    margin: 10px;
+    font-size: 19px;
+    font-family: monospace;
+    position: relative;
+    bottom: 20px;
+}
